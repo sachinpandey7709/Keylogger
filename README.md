@@ -20,6 +20,6 @@ It emphasizes privacy, consent, and governance. **No code or instruction that en
 5. Oversight by Legal / Privacy / Security teams (and IRB if applicable).
 
 ```Bash
- git clone https://github.com/sachinpandey7709/Keylogger.git
+git clone https://github.com/sachinpandey7709/Keylogger.git
 cd Keylogger
 python keylogger.py
