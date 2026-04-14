@@ -11,6 +11,7 @@ It emphasizes privacy, consent, and governance. **No code or instruction that en
 - **Do NOT** run capture code on systems or users without documented, informed consent.  
 - Capturing or storing credentials, PII, or other sensitive data without explicit authorization is illegal in many jurisdictions.
 - pip install sounddevice numpy scipy keyboard pynput
+- pip install opencv-python numpy pyautogui keyboard
 - The repository owner and contributors are **not responsible** for misuse.
 
 ## Required Approvals & Controls (MUST have before any experiment)
