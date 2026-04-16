@@ -13,6 +13,7 @@ It emphasizes privacy, consent, and governance. **No code or instruction that en
 - pip install sounddevice numpy scipy keyboard pynput
 - pip install opencv-python numpy pyautogui keyboard
 - pip install sounddevice numpy scipy keyboard pynput opencv-python pyautogui
+- pip install sounddevice numpy scipy keyboard pynput opencv-python pyautogui pillow
 - The repository owner and contributors are **not responsible** for misuse.
 
 ## Required Approvals & Controls (MUST have before any experiment)
