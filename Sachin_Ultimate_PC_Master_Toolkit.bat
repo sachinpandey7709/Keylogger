@@ -90,7 +90,11 @@ echo 63. Microsoft Edge
 echo 64. Firefox
 echo 65. Opera
 echo.
-echo 66. Exit
+echo ================= GITHUB / ACCOUNT =================
+echo 66. My Github
+echo 67. Python Exe Github
+echo.
+echo 68. Exit
 echo.
 set /p choice=Select option: 
 
@@ -160,7 +164,9 @@ if "%choice%"=="62" start chrome & goto menu
 if "%choice%"=="63" start msedge & goto menu
 if "%choice%"=="64" start firefox & goto menu
 if "%choice%"=="65" start opera & goto menu
-if "%choice%"=="66" exit
+if "%choice%"=="66" start https://github.com/sachinpandey7709?tab=repositories & goto menu
+if "%choice%"=="67" start https://github.com/brentvollebregt/auto-py-to-exe & goto menu
+if "%choice%"=="68" exit
 
 echo Invalid option selected.
 pause
