@@ -14,7 +14,7 @@ color 0F
 :menu
 cls
 echo ============================================================
-echo                 ULTIMATE PC MASTER TOOLKIT
+echo                 SACHIN ULTIMATE PC MASTER TOOLKIT
 echo ============================================================
 echo.
 echo ================= SYSTEM TOOLS =================
@@ -94,11 +94,15 @@ echo ================= GITHUB / ACCOUNT =================
 echo 66. My Github
 echo 67. Python Exe Github
 echo.
-echo ================= SECURITY / UTILITIES =================
+echo ================= UTILITIES =================
 echo 68. Sublime
 echo 69. Notepad
 echo.
-echo 70. Exit
+echo ================= WIFI TOOLS =================
+echo 70. Show WiFi Profiles
+echo 71. Show Connected WiFi Info
+echo.
+echo 72. Exit
 echo.
 set /p choice=Select option: 
 
@@ -172,7 +176,9 @@ if "%choice%"=="66" start https://github.com/sachinpandey7709?tab=repositories &
 if "%choice%"=="67" start https://github.com/brentvollebregt/auto-py-to-exe & goto menu
 if "%choice%"=="68" start "" "C:\Program Files\Sublime Text\sublime_text.exe" & goto menu
 if "%choice%"=="69" start notepad & goto menu
-if "%choice%"=="70" exit
+if "%choice%"=="70" cls & netsh wlan show profiles & pause & goto menu
+if "%choice%"=="71" cls & netsh wlan show interfaces & pause & goto menu
+if "%choice%"=="72" exit
 
 echo Invalid option selected.
 pause
