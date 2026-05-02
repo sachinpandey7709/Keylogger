@@ -94,7 +94,11 @@ echo ================= GITHUB / ACCOUNT =================
 echo 66. My Github
 echo 67. Python Exe Github
 echo.
-echo 68. Exit
+echo ================= SECURITY / UTILITIES =================
+echo 68. Sublime
+echo 69. Notepad
+echo.
+echo 70. Exit
 echo.
 set /p choice=Select option: 
 
@@ -166,7 +170,9 @@ if "%choice%"=="64" start firefox & goto menu
 if "%choice%"=="65" start opera & goto menu
 if "%choice%"=="66" start https://github.com/sachinpandey7709?tab=repositories & goto menu
 if "%choice%"=="67" start https://github.com/brentvollebregt/auto-py-to-exe & goto menu
-if "%choice%"=="68" exit
+if "%choice%"=="68" start "" "C:\Program Files\Sublime Text\sublime_text.exe" & goto menu
+if "%choice%"=="69" start notepad & goto menu
+if "%choice%"=="70" exit
 
 echo Invalid option selected.
 pause
